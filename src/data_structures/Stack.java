@@ -1,6 +1,15 @@
 package data_structures;
 
-import java.util.*;
+import java.util.Scanner;
+import java.util.Stack;
+
+/*
+ * O código verifica se uma sequência de parênteses, colchetes e chaves está balanceada usando uma pilha. 
+ * Ele adiciona os símbolos de abertura à pilha e, ao encontrar símbolos de fechamento, 
+ * verifica se correspondem ao topo da pilha, removendo-o se houver correspondência. 
+ * Ao final, se a pilha estiver vazia, significa que todos os pares foram balanceados e o programa imprime true; 
+ * caso contrário, imprime false.
+ */
 
 class Solution {
     public static void main(String[] args) {
