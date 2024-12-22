@@ -4,7 +4,6 @@ import java.security.MessageDigest;
 import java.util.Scanner;
 
 public class Sha256 {
-
     public static void main(String[] args) throws Exception {
         /*
          * Enter your code here. Read input from STDIN. Print output to STDOUT. Your
